@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boton de saludar</title>
+    <style>
+        button{
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="myFunction()">Saludar</button>
-    <script>
-        function myFunction(){
-            alert('Hola!');
-        }
-    </script>
+    <div id="myDiv">
+    <button onclick="handleClick()">Saludar</button>
+    </div>
+    <script src="eventos.js"></script>
 </body>
 </html>
